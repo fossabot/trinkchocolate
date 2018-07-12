@@ -1,6 +1,9 @@
 @font-face {
-  font-family: 'Nexa Bold';
-  src: url('{{ .Site.BaseURL }}fonts/Nexa Bold.otf');
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Product Sans'),local('ProductSans-Regular'),url(//fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2)format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -67,7 +70,7 @@ body {
   display: -moz-flex;
   display: -ms-flexbox;
   display: -ms-flex;
-  display: flex;
+  display: flex; 
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
@@ -162,9 +165,13 @@ div.header .container .logo {
 }
 div.header .name {
   padding-top: 20px;
+
   font-size: 28px;
-  font-family: 'Nexa Bold', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Product Sans', 'Futura' ,'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 500;
+
   letter-spacing: -0.005rem;
+  color: #c00000;
   {{ if isset .Site.Params "titlestyle" }}
       {{ if in "capitalize uppercase lowercase none full-width" .Site.Params.titlestyle }}
   text-transform: {{ .Site.Params.titlestyle }};
@@ -177,7 +184,6 @@ div.header .name {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #333333;
 }
 div.header nav {
   margin-bottom: 16px;
@@ -204,7 +210,7 @@ div.header nav ul li:last-child {
 div.header nav ul a {
   color: #555555;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -735,7 +741,8 @@ kbd {
 }
 
 .wf-merriweather-n3-active div.main .content .markdown {
-      font-family: 'Merriweather';
+      font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
+      font-weight: 400
 }
 
 .wf-ubuntu-mono-n4-active div.main .content .markdown code,

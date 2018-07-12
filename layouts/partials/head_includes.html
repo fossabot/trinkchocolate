@@ -16,24 +16,6 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet">
 </noscript>
 
-{{ if .Site.Params.highlightjs }}
-  <style type="text/css" media="screen">
-    {{ partial "css/highlight.min.css" . | safeCSS }}
-  </style>
-{{ end }}
-
-{{ if .Site.Params.progressively }}
-  <style type="text/css" media="screen">
-    {{ partial "css/progressively.min.css" . | safeCSS }}
-  </style>
-{{ end }}
-
-{{ if .Site.Params.share }}
-  <style type="text/css" media="screen">
-    {{ partial "css/social-share-kit.css" . | safeCSS }}
-  </style>
-{{ end }}
-
 {{ if .Site.Params.colors }}
   <style type="text/css" media="screen">
     {{ partial "css/colors.css" . | safeCSS }}

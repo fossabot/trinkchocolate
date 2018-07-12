@@ -46,9 +46,9 @@ div.header .content {
 -ms-align-items: flex-start;
 align-items: flex-start;
 }
-div.header .name {
+/* div.header .name {
 color: #333333;
-}
+} */
 div.header nav {
 font-size: 14px;
 margin-bottom: 0;
