@@ -175,7 +175,7 @@ div.header .name {
   font-weight: 500;
 
   letter-spacing: -0.005rem;
-  color: #c00000;
+  color: {{ .Param "colors.primary" }};
   {{ if isset .Site.Params "titlestyle" }}
       {{ if in "capitalize uppercase lowercase none full-width" .Site.Params.titlestyle }}
   text-transform: {{ .Site.Params.titlestyle }};
