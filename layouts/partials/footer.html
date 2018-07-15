@@ -14,11 +14,11 @@
 
         <div class="copyright">
 
-        {{ if .Site.Params.copyright }}
-            {{ if .Site.Params.copyrightUrl }}
-                <a href="{{ .Site.Params.copyrightUrl }}">{{ .Site.Params.copyright }}</a>
+        {{ if .Site.Params.identity.copyright }}
+            {{ if .Site.Params.identity.copyrightUrl }}
+                <a href="{{ .Site.Params.identity.copyrightUrl }}">{{ .Site.Params.identity.copyright }}</a>
             {{ else }}
-                <a href="{{ .Site.BaseURL }}license">{{ .Site.Params.copyright }}</a>
+                <a href="{{ .Site.BaseURL }}legal">{{ .Site.Params.identity.copyright }}</a>
             {{ end }}
         {{ end }}
 
@@ -61,8 +61,8 @@
             </a>
         {{ end }}
 
-        {{ if .Site.Params.email }}
-            <a href="mailto:{{ .Site.Params.email }}">
+        {{ if .Site.Params.identity.email }}
+            <a href="mailto:{{ .Site.Params.identity.email }}">
                 <img class="icon" src="{{ .Site.BaseURL }}img/email.svg" alt="email" />
             </a>
         {{ end }}
