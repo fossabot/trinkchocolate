@@ -6,12 +6,16 @@ a:hover {
     color: {{ .Param "colors.identifier_dark" }};
 }
 
-div.main .content .markdown, div.header, div.header nav ul a:hover {
+div.main .content .markdown, div.header, div.header nav ul {
     color: {{ .Param "colors.foreground" }};
 }
 
 div.header nav ul a {
     color: {{ .Param "colors.trivial" }};
+}
+
+div.header nav ul a:hover {
+    color: {{ .Param "colors.identifier_dark" }};
 }
 
 div.main .content .markdown code {

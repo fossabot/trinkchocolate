@@ -11,6 +11,9 @@
 <div class="header header-home column">
 {{ end }}
     <div class="container">   
+        <a href="/">
+            <img src="/img/banner.jpg"/>            
+        </a>
         {{ if (not (isset .Site.Params "logofile")) }}
         <a href="https://github.com/mtn/cocoa-eh-hugo-theme/wiki/Configuration#logo">Logo HOWTO</a>
         {{ else if ne .Site.Params.logofile "" }}

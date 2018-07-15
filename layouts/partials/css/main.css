@@ -2,7 +2,7 @@
   font-family: 'Product Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Product Sans'),local('ProductSans-Regular'),url(//fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2)format('woff2');
+  src: local('Product Sans'),local('ProductSans-Regular'),url(/fonts/productsans.woff2)format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -86,7 +86,7 @@ body {
   width: 100%;
   min-height: 100%;
   font-weight: 400;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
   color: #111111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
@@ -138,10 +138,11 @@ div.header .container {
   -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
-  align-items: center;
   -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   justify-content: center;
 }
 div.header .content {
@@ -212,7 +213,7 @@ div.header nav ul a {
   font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -296,7 +297,7 @@ div.main .content .posts {
 div.main .content .page-heading {
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
   letter-spacing: -0.005rem;
   text-transform: uppercase;
   -moz-osx-font-smoothing: grayscale;
@@ -382,7 +383,7 @@ div.main .container.f04 .content {
 div.main .container.f04 .content .num {
   margin: 30px 0px 30px 0;
   font-weight: 400;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
   font-size: 50px;
 }
 div.main .container.f04 .content .detail {
@@ -463,17 +464,16 @@ div.main .content .markdown {
   font-size: 1.1em;
   line-height: 1.75em;
   color: #313537;
-  font-family: serif;
-  font-weight: 300;
+  font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
+  font-weight: 400;
 }
-div.main .content .markdown h1,
 div.main .content .markdown h2,
 div.main .content .markdown h3,
 div.main .content .markdown h4,
 div.main .content .markdown h5,
 div.main .content .markdown h6 {
   font-size: 22px;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
@@ -486,6 +486,7 @@ div.main .content .markdown h6 {
 div.main .content .markdown h1 {
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  color: {{ .Param "colors.foreground" }};
 }
 div.main .content .markdown h2 {
   font-size: 1.5rem;
@@ -723,30 +724,3 @@ kbd {
   line-height: 1.4;
   white-space: nowrap;
 }
-
-/* Fonts */
-
-{{ if not .Site.Params.disablefancyfonts  }}
-.wf-raleway-n4-active body, 
-.wf-raleway-n4-active div.header nav ul a,
-.wf-raleway-n7-active div.main .content .page-heading,
-.wf-raleway-n2-active div.main .container.f04 .content .num,
-.wf-raleway-n7-active div.main .content .markdown h1,
-.wf-raleway-n7-active div.main .content .markdown h2,
-.wf-raleway-n7-active div.main .content .markdown h3,
-.wf-raleway-n7-active div.main .content .markdown h4,
-.wf-raleway-n7-active div.main .content .markdown h5,
-.wf-raleway-n7-active div.main .content .markdown h6 {
-      font-family: 'Raleway';
-}
-
-.wf-merriweather-n3-active div.main .content .markdown {
-      font-family: 'Lato','Roboto','Arial','Helvetica Neue', 'Helvetica','sans-serif';
-      font-weight: 400
-}
-
-.wf-ubuntu-mono-n4-active div.main .content .markdown code,
-.wf-ubuntu-mono-n4-active div.main .content .markdown pre {
-      font-family: 'Ubuntu Mono';
-}
-{{ end  }}
