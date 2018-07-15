@@ -135,15 +135,18 @@ div.column {
   width: 100%;
 }
 div.header .container {
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
   -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
   justify-content: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 div.header .content {
   display: -webkit-flex;
@@ -486,7 +489,6 @@ div.main .content .markdown h6 {
 div.main .content .markdown h1 {
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  color: {{ .Param "colors.foreground" }};
 }
 div.main .content .markdown h2 {
   font-size: 1.5rem;
