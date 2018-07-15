@@ -1,0 +1,46 @@
+#%% General Site Config %%#
+baseurl = "http://localhost:5000/"      # Base URL of the webpage (e.g.: example.com/)
+theme = "trinkchocolate"                # Hugo Theme
+title = "trinkchocolate"                # Page Title (e.g.: Company Name)
+
+languageCode = "en-US"                  # Page Language
+
+builddrafts = true
+canonifyurls = true
+
+#%% Filepath config (There should no need for changes) %%#
+publishdir = "public"
+layoutdir = "layouts"
+contentdir = "content"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+
+usesmallsummarycard = true
+posts_navigation = true
+titlestyle = "lowercase"        # Letter style of the Company Name
+progressively = true            # Lazy image loading
+
+#%% Page branding images %%#
+[params.branding]
+header_banner = "/img/banner.jpg"   # Banner displayed above the title
+social_banner = "/img/banner.jpg"   # OpenGraph, Twitter Cards image
+
+#%% Company identity %%#
+[params.identity]
+description = "trinkchocolate"
+copyright = "trinkchocolate - MIT licensed"
+copyrightUrl = "/license"
+email = "mail@example.com"
+
+#%% Color Palette %%#
+[params.colors]
+primary = "#795548"             # Primary theme color, e.g. company color. Usage: Link Hover, Header Title Text
+accent = "#f9f9f9"              # Usage: Inline Code background 
+
+primary_text = "#6a7a8b"        # Usage: Nearly all text
+secondary_text = "#ffffff"      # Usage: Code block text
+
+primary_base = "#ffffff"        # Usage: background
+secondary_base = "#282a36"      # Usage: Code block background
