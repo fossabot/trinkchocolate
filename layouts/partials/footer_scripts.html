@@ -23,9 +23,6 @@ fathom('trackPageview');
 
 <script>
   window.onload = function() {
-    {{ if .Site.Params.highlightjs }}
-      hljs.initHighlighting();
-    {{ end }}
     {{ if .Site.Params.progressively }}
       progressively.init({delay: 30, throttle: 50});
     {{ end }}
