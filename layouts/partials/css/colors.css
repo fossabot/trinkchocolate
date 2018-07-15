@@ -1,29 +1,33 @@
+body {
+  background: {{ .Param "colors.primary_base"}}
+}
+
 a {
-    color: {{ .Param "colors.identifier" }};
+    color: {{ .Param "colors.primary_text" }};
 }
 
 a:hover {
-    color: {{ .Param "colors.identifier_dark" }};
+    color: {{ .Param "colors.primary" }};
 }
 
 div.main .content .markdown, div.header, div.header nav ul {
-    color: {{ .Param "colors.foreground" }};
+    color: {{ .Param "colors.primary_text" }};
 }
 
 div.header nav ul a {
-    color: {{ .Param "colors.trivial" }};
+    color: {{ .Param "colors.primary_text" }};
 }
 
 div.header nav ul a:hover {
-    color: {{ .Param "colors.identifier_dark" }};
+    color: {{ .Param "colors.primary" }};
 }
 
 div.main .content .markdown code {
-    background-color: {{ .Param "colors.background" }};
-    color: {{ .Param "colors.identifier" }};
+    background-color: {{ .Param "colors.accent" }};
+    color: {{ .Param "colors.primary_text" }};
 }
 
 div.main .content .markdown pre, div.main .content .markdown pre code {
-    background-color: {{ .Param "colors.background_dark" }};
-    color: {{ .Param "colors.code" }};
+    background-color: {{ .Param "colors.secondary_base" }};
+    color: {{ .Param "colors.secondary_text" }};
 }
