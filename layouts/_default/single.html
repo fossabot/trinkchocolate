@@ -1,3 +1,5 @@
+<!-- Single Post -->
+
 {{ partial "header.html" . }}
 
 {{ if (or (in .Site.Params.blogs .Section) (and (eq "blog" .Section) (not (isset .Site.Params "blogs")))) }}
