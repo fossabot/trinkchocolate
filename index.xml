@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trinkchocolate</title>
+    <link>http://localhost:5000/</link>
+    <description>Recent content on trinkchocolate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:5000/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bare Minimum</title>
+      <link>http://localhost:5000/work/bare-minimum/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/work/bare-minimum/</guid>
+      <description>Whats in this theme? Not much. Just enough to get the job done.
+Um .. and in detail?  Some HTML Templates A little bit of flexbox-CSS Some snippets of JS  .. providing the following awesome features:
+ Templates: The page content is created in markdown, a general content description language. Hugo generates the final website out of the template and the content, at your service. Configurable: Using a single .</description>
+    </item>
+    
+    <item>
+      <title>Non Blog</title>
+      <link>http://localhost:5000/work/non-blog/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/work/non-blog/</guid>
+      <description>trinkchocolate declares itself as a non-blog theme. This does not mean that there is no capability to publish posts into a blog-like archive, it is just not the focus.
+The included archive is meant for two things: Representating current / finished projects and spreading news. But the &amp;ldquo;blog&amp;rdquo; will never be the center of the page. Use other templates for that.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:5000/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/license/</guid>
+      <description>The MIT License (MIT)
+Copyright &amp;copy; 2018 shorez me@shorez.de
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://localhost:5000/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/home/</guid>
+      <description>Trinkchocolate is a bare-minimum, non-blog theme aimed for sporadically changing static sites.
+Why? This theme aims to address a typical small-business problem: We need a website! Hooray! But .. how? While a lot of smaller companies seem to create an all-static html/css only site once and never touch it again (who wants to touch html as a non-programmer? Obvious. Nobody), that&amp;rsquo;s definitely not the way to go.
+trinkchocolate to the rescue.</description>
+    </item>
+    
+    <item>
+      <title>style</title>
+      <link>http://localhost:5000/style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/style/</guid>
+      <description> Style Demo:
+HEADLINES h1 h2 h3 h4 h5 h6 EMPHASIS bold
+italic
+strike
+LISTS  First ordered Second ordered Third ordered   First unordered Second unordered  </description>
+    </item>
+    
+  </channel>
+</rss>

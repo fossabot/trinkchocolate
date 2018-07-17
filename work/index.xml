@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on trinkchocolate</title>
+    <link>http://localhost:5000/work/</link>
+    <description>Recent content in Works on trinkchocolate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:5000/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bare Minimum</title>
+      <link>http://localhost:5000/work/bare-minimum/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/work/bare-minimum/</guid>
+      <description>Whats in this theme? Not much. Just enough to get the job done.
+Um .. and in detail?  Some HTML Templates A little bit of flexbox-CSS Some snippets of JS  .. providing the following awesome features:
+ Templates: The page content is created in markdown, a general content description language. Hugo generates the final website out of the template and the content, at your service. Configurable: Using a single .</description>
+    </item>
+    
+    <item>
+      <title>Non Blog</title>
+      <link>http://localhost:5000/work/non-blog/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/work/non-blog/</guid>
+      <description>trinkchocolate declares itself as a non-blog theme. This does not mean that there is no capability to publish posts into a blog-like archive, it is just not the focus.
+The included archive is meant for two things: Representating current / finished projects and spreading news. But the &amp;ldquo;blog&amp;rdquo; will never be the center of the page. Use other templates for that.</description>
+    </item>
+    
+  </channel>
+</rss>
