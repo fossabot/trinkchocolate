@@ -3,45 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:5000/work/bare-minimum/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/work/bare-minimum/</loc>
     <lastmod>2018-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:5000/work/non-blog/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/work/non-blog/</loc>
     <lastmod>2018-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:5000/license/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/license/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:5000/categories/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:5000/home/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/home/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:5000/tags/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:5000/work/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/work/</loc>
     <lastmod>2018-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:5000/style/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/style/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:5000/</loc>
+    <loc>https://sh0rez.github.io/trinkchocolate/</loc>
     <lastmod>2018-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
