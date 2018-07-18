@@ -1,0 +1,22 @@
+language: go
+go:
+  - "1.10"
+
+
+install:
+- go get github.com/gohugoio/hugo
+
+script:
+- mkdir -p exampleSite/themes/trinkchocolate
+- cp -r !(exampleSite) exampleSite/themes/trinkchocolate
+- ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+- cd exampleSite/ && hugo
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  local_dir: exampleSite/public
+  on:
+    branch: master

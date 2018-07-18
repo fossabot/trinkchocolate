@@ -1,5 +1,5 @@
 #%% General Site Config %%#
-baseurl = "http://localhost:5000/"      # Base URL of the webpage (e.g.: example.com/)
+baseurl = "https://sh0rez.github.io/trinkchocolate/"      # Base URL of the webpage (e.g.: example.com/)
 theme = "trinkchocolate"                # Hugo Theme
 title = "trinkchocolate"                # Page Title (e.g.: Company Name)
 
