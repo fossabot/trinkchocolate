@@ -1,4 +1,5 @@
 ![HotChocolate Banner](exampleSite/static/img/banner.jpg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsh0rez%2Ftrinkchocolate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsh0rez%2Ftrinkchocolate?ref=badge_shield)
 
 # Trinkchocolate
 
@@ -20,3 +21,6 @@ raction free website creating experience.
 ## License
 
 Licensed under the MIT License. See the [LICENSE](https://github.com/mtn/cocoa-eh-hugo-theme/blob/master/LICENSE) file for more details.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsh0rez%2Ftrinkchocolate.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsh0rez%2Ftrinkchocolate?ref=badge_large)
